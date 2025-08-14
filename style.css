@@ -1,0 +1,76 @@
+body{
+    background: white;
+    margin: 0;
+    padding:0;
+    max-width: 100%;
+
+}
+
+ .header{
+         text-align: center;         
+}
+
+.header h1{
+    font-style: roboto;
+    font-weight:bold;
+    text-transform: uppercase;
+    color:b(255 165 100);
+    
+}
+
+.about-book img{
+    float: left;
+    margin: 5px;
+   ;
+}
+
+
+.about-book h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+
+.about-author{
+        background: #E38B5A;
+    
+}
+
+.about-author img{
+    float: left;
+    margin: 3PX;
+    border-right:8px solid #000;
+      border-left:5px solid #000;
+    border-radius:0 50% 0 30%;
+}
+
+.about-author H1{
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration:underline ;
+}
+
+
+.about-author {
+      padding: 1px;
+}
+
+section{
+    
+    background: #;
+    margin: 10px;
+    padding:12px;
+    
+}
+
+form{
+   margin: 5p;
+
+}
+
+ form input{
+    display: block;
+    padding: 5px;
+
+
+}
