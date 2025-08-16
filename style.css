@@ -119,12 +119,12 @@ button:active{
 
 #who-needs-the-book{
     margin: 1px;
-    padding: 2px;
+    padding: 1px;
 }
 
 #prices{
     margin: 1px;
-    padding: 2px;
+    padding: 1px;
 }
 
 #gallary{
@@ -134,7 +134,7 @@ button:active{
     max-width: 100%;
     gap: 4px;
     padding: 4px;
-    background: #ccc;
+    
 
 }
 
