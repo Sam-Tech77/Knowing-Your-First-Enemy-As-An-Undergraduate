@@ -1,0 +1,179 @@
+body{
+    background: white;
+    margin: 0;
+    padding:0;
+    max-width: 100%;
+
+}
+
+
+.header{
+    text-align: center;
+
+}
+
+
+.header h1{
+    font-style: roboto;
+    font-weight:bold;
+    text-transform: uppercase;
+    
+    
+}
+
+.about-book img{
+    float: left;
+
+}
+
+
+.about-book h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+
+#about-author{
+        background: #E38B5A;
+        margin: 20px auto;
+}
+
+#about-author p{
+    font-size: 16px;
+    padding:8px;
+}
+
+#about-author img{
+    float: left;
+    margin: 0 0 8px 0 ;
+    padding: 0;
+    border-right:8px solid #000;
+      border-left:5px solid #000;
+    border-radius:0 50% 0 30%;
+}
+
+#about-author h1{
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration:underline ;
+    padding: 6px;
+}
+
+#about-author:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+#section h2{
+    margin: 5px;
+    padding:12px;
+    text-align:center;
+    
+    
+}
+
+#section p{
+    margin: 5px;
+    padding:12px;
+    text-align:center;
+    z-index: 2;
+    
+}
+
+
+ input,label{
+    display: block;
+    padding: 5px;
+    margin: 5px auto;
+    width: 50%;
+
+}
+
+
+button{
+    display: block;
+    padding: 10px 20px;
+    margin:10px auto;
+    background: #ccc;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background: #fff;
+    border:2px solid #E38B5A;
+    border-radius: 5px;
+}
+
+button:active{
+    background: #E38B5A;
+}
+
+#explore{
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#who-needs-the-book{
+    margin: 1px;
+    padding: 2px;
+}
+
+#prices{
+    margin: 1px;
+    padding: 2px;
+}
+
+#gallary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    gap: 4px;
+    padding: 4px;
+    background: #ccc;
+
+}
+
+#gallary:after{
+    display: block;
+    content: "";
+    clear: both;
+    color: red;
+}
+
+.community{
+    width: 100%;
+    margin: 5px 30px;
+}
+
+.community content,comimg{
+    float: left;
+    margin: 2%;
+    padding: %;
+    width: 46%;
+}
+
+.community:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+
+span,strong{
+    color: #E38B5A;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#faq{
+    background: #E38B5A;
+    text-align: center;
+    padding: 10PX;
+}
+
